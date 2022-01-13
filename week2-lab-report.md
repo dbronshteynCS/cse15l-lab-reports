@@ -31,6 +31,8 @@ Once I had logged into the ieng6 server, I tried out different commands in the V
 
 ## Moving files with `scp`
 
+To move files to the ssh, I used the `scp` command. First I created a new file in Visual Studio Code called "WhereAmI.java" and pasted the code that was provided in the *Week 1 Lab* and compiled it by the command `javac WhereAmI.java` and ran it by `java WhereAmI`. Seeing that it ran, I moved it to 
+
 ## Setting an SSH Key
 
 
