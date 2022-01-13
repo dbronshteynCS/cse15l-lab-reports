@@ -2,7 +2,6 @@
 **Daniel Bronshteyn**
 **PID: A16882179**
 ---
----
 
 # *This is a tutorial on how to log into the ieng6*
 
