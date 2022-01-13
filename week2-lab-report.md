@@ -38,6 +38,8 @@ First I created a new file in Visual Studio Code called "WhereAmI.java" and past
 
 ## Setting an SSH Key
 
+![SSH Key](SSH%20Key.png)
+
 
 ## Optimizing Remote Running
 
