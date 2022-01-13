@@ -17,3 +17,12 @@ HORIZTONAL RULE:
 `Inline`
 # code block
 print 'Hi' 
+print 'By'
+print 'computer'
+1. Hi
+2. There
+3. What 
+4. Is the time
+
+CSE
+
