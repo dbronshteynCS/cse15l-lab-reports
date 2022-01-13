@@ -57,5 +57,7 @@ and then was able to log in with ssh without entering a password.
 
 ## Optimizing Remote Running
 
+The edit I made to WhereAmI.java was adding a line that printed "HELLO WORLD!". After working through various different optimizations of making a local edit on "WhereAmI.java", copying it to the ieng6 server, and running it from the server, I created this command: `scp WhereAmI.java cs15lwi22ace@ieng6.ucsd.edu:~/; ssh cs15lwi22ace@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`. The whole process is on one line where I first make a `scp` (copy to the server), then semicolon, and ssh in to the server where I compile and run WhereAmI.java. 
 
+![Optimizing Remote Running](Optimizing%20Remote%20Running.png)
 
