@@ -39,8 +39,11 @@ First I created a new file in Visual Studio Code called "WhereAmI.java" and past
 ## Setting an SSH Key
 
 
+![SSH Keys Override Pass](SSH%20Keys%20Override%20Pass.png)
+>I originally set a passphrase for the ssh key when it should have been empty. That is why the override option appears in the screenshot for setting up an ssh key. The original with a passphrase is below. 
 
 ![SSH Keys](SSH%20Keys.png)
+
 
 
 ## Optimizing Remote Running
