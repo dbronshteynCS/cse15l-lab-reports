@@ -35,6 +35,17 @@ First I created a new file in Visual Studio Code called "WhereAmI.java" in the f
 
 ![Moving files with scp](Moving%20files%20with%20scp.png)
 
+*Code for `WhereAmI.java`*
+```
+class WhereAmI {
+    public static void main(String[] args) {
+      System.out.println(System.getProperty("os.name"));
+      System.out.println(System.getProperty("user.name"));
+      System.out.println(System.getProperty("user.home"));
+      System.out.println(System.getProperty("user.dir"));
+    }
+  }
+```
 
 ## Setting an SSH Key
 
