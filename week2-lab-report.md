@@ -62,7 +62,7 @@ and then was able to log in using ssh without entering a password.
 
 **Setting an SSH Key**
 ![SSH Keys Override Pass](SSH%20Keys%20Override%20Pass.png)
->I originally set a passphrase for the ssh key when it should have been empty. That is why the override option appears in the screenshot for setting up an ssh key. The original screenshot with a passphrase is below. 
+>I originally set a passphrase for the ssh key when it should have been empty. That is why the override option appears in the screenshot for setting up an SSH key. The original screenshot with a passphrase is below. 
 
 ![SSH Keys](SSH%20Keys.png)
 
