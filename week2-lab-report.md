@@ -58,7 +58,7 @@ $ (logout)
 $ scp /Users/danielbronshteyn/.ssh/id_rsa.pub cs15lwi22ace@ieng6.ucsd.edu:~/.ssh/authorized_keys
 $ (entered password)
 ```
-and then was able to log in with ssh without entering a password. 
+and then was able to log in using ssh without entering a password. 
 
 **Setting an SSH Key**
 ![SSH Keys Override Pass](SSH%20Keys%20Override%20Pass.png)
