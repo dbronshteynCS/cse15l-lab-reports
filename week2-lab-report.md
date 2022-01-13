@@ -24,7 +24,7 @@ To remotely connect to my course-specific account on ieng6, I first went to the 
 
 ## Trying Some Commands
 
-Once I had logged into the ieng6 server, I tried out different commands in the Visual Studio Code terminal. Some of the commands I tried were  `pwd` (print working directory), `ls` (list files), `cd perl5` (change directory), `ls -a` (list all files), and `ls /home/linux/ieng6/cs15lwi22/cs15lwi22ace` (list files in directory)
+Once I had logged into the ieng6 server, I tried out different commands in the Visual Studio Code terminal. Some of the commands I tried were  `pwd` (print working directory), `ls` (list files), `cd perl5` (change directory), `ls /home/linux/ieng6/cs15lwi22/cs15lwi22ace` (list files in directory), and `ls -a` (list all files). 
 
 *Trying Some Commands in the Terminal*
 ![Trying Some Commands](Trying%20Some%20Commands.png)
