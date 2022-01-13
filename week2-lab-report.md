@@ -38,13 +38,21 @@ First I created a new file in Visual Studio Code called "WhereAmI.java" and past
 
 ## Setting an SSH Key
 
+To create an ssh key, I first typed "ssh-keygen" into the Visual Studio Code terminal; this generated a public and private key. Then I entered the file in which I would save these keys, "/Users/danielbronshteyn/.ssh/id_rsa", and when prompted for a passphrase, I left them empty by clicking *return* twice. Then after being shown that the ssh key was saved, I made a copy of the **public** key to the `.ssh` directory of my account on the ieng6 server through the following commands: 
+```
+$ ssh cs15lwi22ace@ieng6.ucsd.edu
+$ (entered password)
+$ mkdir .ssh
+$ (logout)
+$ scp /Users/danielbronshteyn/.ssh/id_rsa.pub cs15lwi22ace@ieng6.ucsd.edu:~/.ssh/authorized_keys
+$ (entered password)
+```
+and then was able to log in with ssh without entering a password. 
 
 ![SSH Keys Override Pass](SSH%20Keys%20Override%20Pass.png)
 >I originally set a passphrase for the ssh key when it should have been empty. That is why the override option appears in the screenshot for setting up an ssh key. The original with a passphrase is below. 
 
 ![SSH Keys](SSH%20Keys.png)
-
-
 
 ## Optimizing Remote Running
 
