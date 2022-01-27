@@ -37,7 +37,7 @@ As seen in this relationship, the failure-inducing input caused the sympton show
 >Symptom of failure-inducing input:
 ![Symptom2](Week4ImagesFolder/Symptombugfile2.png)
 
-The bug in `MarkdownParse.java` was that it was first searching for brackets "[]" before going to the parentheses, copying the string inside the parentheses, and adding the string to the `toReturn` array. This bug caused the following symptm when using the failure-inducing input of `bugfile2.md`:
+The bug in `MarkdownParse.java` was that it was first searching for brackets "[]" before going to the parentheses, copying the string inside the parentheses, and adding the string to the `toReturn` array. This bug caused the following symptom when using the failure-inducing input of `bugfile2.md`:
 ```
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
         at java.base/java.lang.StringLatin1.newString(StringLatin1.java:769)
@@ -58,4 +58,10 @@ In this relationship, the failure-inducing input of `bugfile2.md` caused the sym
 
 >Symptom of failure-inducing input:
 ![Symptom3](Week4ImagesFolder/Symptombugfile3.png)
+
+The bug in `MarkdownParse.java` was that it was adding anything that came before a closing parenthese ")". This bug caused the follwing symptom when using the failure-inducing input of `bugfile3.md`:
+```
+[[ ]
+```
+In this relationship, the failure-inducing input of `bugfile3.md` caused the symptom shown above due to the bug in `MarkdownParse.java`. I fixed the bug by making it so that `MarkdownParse.java` made sure that when an input had an opening bracket it would be following by a closing bracket, and vice versa. As well as make sure that when an input had an opening parenthese it would be follwed by a closing parenthese, and vice versa. This ensured that a link had to be between two parentheses to be added to `toReturn`. 
 
