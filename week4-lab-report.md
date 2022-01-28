@@ -63,5 +63,5 @@ The bug in `MarkdownParse.java` was that it was adding anything that came before
 ```
 [[ ]
 ```
-In this relationship, the failure-inducing input of `bugfile3.md` caused the symptom shown above due to the bug in `MarkdownParse.java`. I fixed the bug by making it so that `MarkdownParse.java` made sure that when an input had an opening bracket, it would be followed by a closing bracket, and vice versa. As well as make sure that when an input had an opening parenthese, it would be follwed by a closing parenthese, and vice versa. This ensured that a link had to be between two parentheses to be added to the `toReturn` array. 
+In this relationship, the failure-inducing input of `bugfile3.md` caused the symptom shown above due to the bug in `MarkdownParse.java`. I fixed the bug by making it so that `MarkdownParse.java` made sure that when an input had a closing bracket, there was an opening bracket as well, Additionally, when an input had an opening parenthese, there would also be a closing parenthese. This ensured that a link had to be between two parentheses to be added to the `toReturn` array. 
 
