@@ -2,7 +2,7 @@
 **Daniel Bronshteyn**
 **PID: A16882179**
 
-# *Three code changes to fix a bug*
+# *Three code changes made to fix a bug*
 
 
 ## First Code Change
@@ -12,7 +12,7 @@
 
 **Link to test file for *failure-inducing input*:** [https://github.com/dbronshteynCS/markdown-parse/blob/main/bugfile1.md](https://github.com/dbronshteynCS/markdown-parse/blob/main/bugfile1.md)
 
->Symptom of failure-inducing input:
+**Symptom of failure-inducing input:**
 ![Symptom1](Week4ImagesFolder/Symptombugfile1.png)
 
 The bug in `MarkdownParse.java` was that it was searching for parentheses "()" so that it could add the String inside the paratheses to the `toReturn` array. This bug caused the following symptom when using the failure-inducing input of `bugfile1.md`:
@@ -34,7 +34,7 @@ As seen in this relationship, the failure-inducing input caused the sympton show
 
 **Link to test file for *failure-inducing input*:** [https://github.com/dbronshteynCS/markdown-parse/blob/main/bugfile2.md](https://github.com/dbronshteynCS/markdown-parse/blob/main/bugfile2.md)
 
->Symptom of failure-inducing input:
+**Symptom of failure-inducing input:**
 ![Symptom2](Week4ImagesFolder/Symptombugfile2.png)
 
 The bug in `MarkdownParse.java` was that it was first searching for brackets "[]" before going to the parentheses, copying the string inside the parentheses, and adding the string to the `toReturn` array. This bug caused the following symptom when using the failure-inducing input of `bugfile2.md`:
@@ -56,7 +56,7 @@ In this relationship, the failure-inducing input of `bugfile2.md` caused the sym
 
 **Link to test file for *failure-inducing input*:** [https://github.com/dbronshteynCS/markdown-parse/blob/main/bugfile3.md](https://github.com/dbronshteynCS/markdown-parse/blob/main/bugfile3.md)
 
->Symptom of failure-inducing input:
+**Symptom of failure-inducing input:**
 ![Symptom3](Week4ImagesFolder/Symptombugfile3.png)
 
 The bug in `MarkdownParse.java` was that it was adding anything that came before a closing parenthese ")". This bug caused the follwing symptom when using the failure-inducing input of `bugfile3.md`:
