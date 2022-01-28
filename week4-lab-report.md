@@ -12,6 +12,8 @@
 
 **Link to test file for *failure-inducing input*:** [https://github.com/dbronshteynCS/markdown-parse/blob/main/bugfile1.md](https://github.com/dbronshteynCS/markdown-parse/blob/main/bugfile1.md)
 
+>*The reason that bugfile1.md was being created and deleted multiple times in the Github history was because I forgot to include in the commit's description the unexpected output from the failure-inducing input. The most recent created, and used, version of bugfile1.md contains the unexpected output in the commit's description. I did not have this problem when committing bugfile2.md and bugfile3.md. 
+
 **Symptom of failure-inducing input:**
 ![Symptom1](Week4ImagesFolder/Symptombugfile1.png)
 
