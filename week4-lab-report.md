@@ -2,7 +2,7 @@
 **Daniel Bronshteyn**
 **PID: A16882179**
 
-# *Three code changes made to fix a bug*
+## *Three code changes made to fix a bug*
 
 
 ## First Code Change
