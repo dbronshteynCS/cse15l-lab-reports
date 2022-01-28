@@ -15,7 +15,7 @@
 **Symptom of failure-inducing input:**
 ![Symptom1](Week4ImagesFolder/Symptombugfile1.png)
 
-The bug in `MarkdownParse.java` was that `MarkdownParse.java` was always searching for parentheses "()" so that it could add the data inside the paratheses to the `toReturn` array. If there were no parentheses present, as in `bugfile1.md`, then the program would produce and error. This bug caused the following symptom when using the failure-inducing input of `bugfile1.md`:
+The bug in `MarkdownParse.java` was that `MarkdownParse.java` was always searching for parentheses "()" so that it could add the data inside the paratheses to the `toReturn` array. If there were no parentheses present, as in `bugfile1.md`, then the program would produce an error. This bug caused the following symptom when using the failure-inducing input of `bugfile1.md`:
 ```
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 24
         at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3751)
