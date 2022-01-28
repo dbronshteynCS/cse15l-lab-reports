@@ -15,7 +15,7 @@
 **Symptom of failure-inducing input:**
 ![Symptom1](Week4ImagesFolder/Symptombugfile1.png)
 
-The bug in `MarkdownParse.java` was that `MarkdownParse.java` was searching for parentheses "()" so that it could add the data inside the paratheses to the `toReturn` array. This bug caused the following symptom when using the failure-inducing input of `bugfile1.md`:
+The bug in `MarkdownParse.java` was that `MarkdownParse.java` was always searching for parentheses "()" so that it could add the data inside the paratheses to the `toReturn` array. If there were no parentheses present, as in `bugfile1.md`, then the program would produce and error. This bug caused the following symptom when using the failure-inducing input of `bugfile1.md`:
 ```
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 24
         at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3751)
@@ -23,7 +23,7 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
         at MarkdownParse.getLinks(MarkdownParse.java:18)
         at MarkdownParse.main(MarkdownParse.java:26)
 ```
-As seen in this relationship, the failure-inducing input caused the sympton shown above due to the bug in `MarkdownParse.java`. I fixed the bug by making `MarkdownParse.java` able to continue when there are no links in the input.
+As seen in this relationship, the failure-inducing input caused the sympton shown above due to the bug in `MarkdownParse.java`. I fixed the bug by making `MarkdownParse.java` able to continue when there are no parentheses that contain links in the input.
 
 ---
 
@@ -59,9 +59,9 @@ In this relationship, the failure-inducing input of `bugfile2.md` caused the sym
 **Symptom of failure-inducing input:**
 ![Symptom3](Week4ImagesFolder/Symptombugfile3.png)
 
-The bug in `MarkdownParse.java` was that it was adding anything that came before a closing parenthese ")". This bug caused the follwing symptom when using the failure-inducing input of `bugfile3.md`:
+The bug in `MarkdownParse.java` was that it was adding anything that came before a closing parenthese ")", when there was no opening parenthese before, to the `toReturn` array. This bug caused the follwing symptom when using the failure-inducing input of `bugfile3.md`:
 ```
 [[ ]
 ```
-In this relationship, the failure-inducing input of `bugfile3.md` caused the symptom shown above due to the bug in `MarkdownParse.java`. I fixed the bug by making it so that `MarkdownParse.java` made sure that when an input had a closing bracket, there was an opening bracket as well, Additionally, when an input had an opening parenthese, there would also be a closing parenthese. This ensured that a link had to be between two parentheses to be added to the `toReturn` array. 
+In this relationship, the failure-inducing input of `bugfile3.md` caused the symptom shown above due to the bug in `MarkdownParse.java`. I fixed the bug by making it so that `MarkdownParse.java` made sure that when an input had a closing bracket, there was an opening bracket as well. Additionally, when an input had an opening parenthese, there would also have to be a closing parenthese. This ensured that a link had to be between two parentheses to be added to the `toReturn` array. 
 
