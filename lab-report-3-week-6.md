@@ -12,7 +12,7 @@
 
     ![CreatingConfigFile](Week6ImagesFolder/CreatingConfigFile.png)
 
-    To get to the "config" file, I changed directory (`cd`) to .ssh and entered the command `vim config` so that I could edit the text in config. Screenshot below:
+    To get to the "config" file, I changed directory `cd` to .ssh and entered the command `vim config` so that I could edit the text in config. Screenshot below:
 
     ![GoingToConfig](Week6ImagesFolder/GoingToConfig.png)
 
