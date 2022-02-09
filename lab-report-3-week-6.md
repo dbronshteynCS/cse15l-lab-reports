@@ -25,7 +25,7 @@
 
 - ### **`ssh` command logging me into account:**
 
-    Logging into my ieng6 by using the alias I chose: `ieng6`.
+    I logged into my ieng6 by using the alias I chose: `ieng6`.
 
     ![SSHieng6](Week6ImagesFolder/SSHieng6.png)
 
