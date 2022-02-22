@@ -14,7 +14,11 @@
 
 ![Snippet1Preview](Week8ImagesFolder/Snippet1Expected.png)
 
-Code for the test on **Snippet 1:**
+Code in `MarkdownParseTest.java` for **Snippet 1**:
+
+![TestOnSnippet1](Week8ImagesFolder/TurningSnippet1IntoTest.png)
+
+
 
 ### *My implementation*
 
@@ -28,6 +32,10 @@ Code for the test on **Snippet 1:**
 
 ![Snippet2Preview](Week8ImagesFolder/Snippet2Expected.png)
 
+Code in `MarkdownParseTest.java` for **Snippet 2**:
+
+![TestOnSnippet2](Week8ImagesFolder/TurningSnippet2IntoTest.png)
+
 ### *My implementation*
 
 ### *Implementation reviewed*
@@ -39,6 +47,10 @@ Code for the test on **Snippet 1:**
 **Snippet 3** should produce only 3 links and text as shown in the preview:
 
 ![Snippet3Preview](Week8ImagesFolder/Snippet3Expected.png)
+
+Code in `MarkdownParseTest.java` for **Snippet 3**:
+
+![TestOnSnippet3](Week8ImagesFolder/TurningSnippet3IntoTest.png)
 
 ### *My implementation*
 
