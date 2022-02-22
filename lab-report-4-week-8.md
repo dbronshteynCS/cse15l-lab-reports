@@ -19,10 +19,15 @@ Code in `MarkdownParseTest.java` for **Snippet 1**:
 ![TestOnSnippet1](Week8ImagesFolder/TurningSnippet1IntoTest.png)
 
 
-
 ### *My implementation*
 
 ### *Implementation reviewed*
+
+Output from running JUnit test:
+
+![ReviewSnippet1TestOutput](Week8ImagesFolder/ReviewSnippet1TestOutput.png)
+
+*The part circled in blue shows the test failure
 
 ---
 
@@ -40,6 +45,12 @@ Code in `MarkdownParseTest.java` for **Snippet 2**:
 
 ### *Implementation reviewed*
 
+Output from running JUnit test:
+
+![ReviewSnippet2TestOutput](Week8ImagesFolder/ReviewSnippet2TestOutput.png)
+
+*The part circled in blue shows the test failure
+
 ---
 
 ## **Snippet 3**
@@ -55,5 +66,11 @@ Code in `MarkdownParseTest.java` for **Snippet 3**:
 ### *My implementation*
 
 ### *Implementation reviewed*
+
+Output from running JUnit test:
+
+![ReviewSnippet3TestOutput](Week8ImagesFolder/ReviewSnippet3TestOutput.png)
+
+*The part circled in blue shows the test failure
 
 
