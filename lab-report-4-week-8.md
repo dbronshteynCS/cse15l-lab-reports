@@ -12,20 +12,31 @@
 
 **Snippet 1** should produce 3 links, with the first line not being a link as shown in the preview:
 
-
-
+![Snippet1Preview](Week8ImagesFolder/Snippet1Expected.png)
 
 ### *My implementation*
 
 ### *Implementation reviewed*
+
+---
 
 ## **Snippet 2**
 
+**Snippet 2** should produce 3 links, with the attempted ```b.com``` not being a link as shown in the preview:
+
+![Snippet2Preview](Week8ImagesFolder/Snippet2Expected.png)
+
 ### *My implementation*
 
 ### *Implementation reviewed*
 
+---
+
 ## **Snippet 3**
+
+**Snippet 3** should produce only 3 links and text as shown in the preview:
+
+![Snippet3Preview](Week8ImagesFolder/Snippet3Expected.png)
 
 ### *My implementation*
 
