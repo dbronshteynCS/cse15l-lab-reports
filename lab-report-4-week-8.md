@@ -14,6 +14,8 @@
 
 ![Snippet1Preview](Week8ImagesFolder/Snippet1Expected.png)
 
+Code for the test on **Snippet 1:**
+
 ### *My implementation*
 
 ### *Implementation reviewed*
