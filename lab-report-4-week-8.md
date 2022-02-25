@@ -14,7 +14,7 @@
 
 ![Snippet1Preview](Week8ImagesFolder/Snippet1Expected.png)
 
-Code in `MarkdownParseTest.java` for **Snippet 1**:
+My code in `MarkdownParseTest.java` to test **Snippet 1**:
 
 ![TestOnSnippet1](Week8ImagesFolder/TurningSnippet1IntoTest.png)
 
@@ -43,7 +43,7 @@ Output from running JUnit test:
 
 ![Snippet2Preview](Week8ImagesFolder/Snippet2Expected.png)
 
-Code in `MarkdownParseTest.java` for **Snippet 2**:
+My code in `MarkdownParseTest.java` to test **Snippet 2**:
 
 ![TestOnSnippet2](Week8ImagesFolder/TurningSnippet2IntoTest.png)
 
@@ -71,7 +71,7 @@ Output from running JUnit test:
 
 ![Snippet3Preview](Week8ImagesFolder/Snippet3Expected.png)
 
-Code in `MarkdownParseTest.java` for **Snippet 3**:
+My code in `MarkdownParseTest.java` to test **Snippet 3**:
 
 ![TestOnSnippet3](Week8ImagesFolder/TurningSnippet3IntoTest.png)
 
