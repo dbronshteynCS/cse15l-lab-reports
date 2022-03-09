@@ -1,28 +1,20 @@
-**Hello, world!**
-*Good Morning*
-## UCSD
-# UCSD
-[Link](https://ucsd.edu/)
-![Image]()
->Hi
-* Hi
-* Hi
-* Hi
-1. Hi
-2. Hi
-3. Hi
+# Welcome to dbronshteynCS/cse15l-lab-reports/index.md page
 
-HORIZTONAL RULE:
----
-`Inline`
-# code block
-print 'Hi' 
-print 'By'
-print 'computer'
-1. Hi
-2. There
-3. What 
-4. Is the time
+## Links to Lab Reports
 
-CSE
+**Lab Report 1**
+[LinkToLabReport1](https://dbronshteyncs.github.io/cse15l-lab-reports/week2-lab-report.html)
+
+**Lab Report 2**
+[LinkToLabReport2](https://dbronshteyncs.github.io/cse15l-lab-reports/week4-lab-report.html)
+
+**Lab Report 3**
+[LinkToLabReport3](https://dbronshteyncs.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+
+**Lab Report 4**
+[LinkToLabReport4](https://dbronshteyncs.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
+**Lab Report 5**
+*Will appear once completed*
+
 
