@@ -1,4 +1,4 @@
-# Welcome to dbronshteynCS/cse15l-lab-reports/index.md page
+# Welcome to dbronshteynCS cse15l-lab-reports repository
 
 ## Links to Lab Reports
 
