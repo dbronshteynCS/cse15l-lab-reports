@@ -7,7 +7,7 @@
 
 ---
 
-To find the tests that caused different results between my implementation and the implementation provided in lab, I ran a bash for loop first for my implementation and copied the results into a `results.txt` file that would be stored in the directory holding my implementation. Then I ran a bash for loop on the implementation provided in lab and copied the results into a `results.txt` file that would be stored in the directory holding the implementatation provided in lab. Then I ran the command `diff your-markdown-parse/results.txt Markdown-Parse-Week9/results.txt` with `your-mardown-parse/` directory containing my implementation and `Markdown-Parse-Week9/` directory containing the implementation provided in lab. This command showed me which tests caused different results between the two implementations. 
+To find the tests that caused different results between my implementation and the implementation provided in lab, I ran a bash for loop first for my implementation and copied the results into a `results.txt` file that would be stored in the directory holding my implementation. Then I ran a bash for loop on the implementation provided in lab and copied the results into a `results.txt` file that would be stored in the directory holding the implementatation provided in lab. Next, I ran the command `diff your-markdown-parse/results.txt Markdown-Parse-Week9/results.txt` with `your-mardown-parse/` directory containing my implementation and `Markdown-Parse-Week9/` directory containing the implementation provided in lab. This command showed me which tests caused different results between the two implementations. 
 
 ## Testing 530.md
 
@@ -15,7 +15,7 @@ While my implementation caused the wrong output, the implementation provided in 
 
 ![ExpectedOutputFor530](Week10Images/Expected530.png)
 
-Output when running `diff` and vieweing the file 530.md:
+Output when running `diff` at file 530.md:
 
 ![Diff530](Week10Images/Diff530.png)
 
@@ -34,7 +34,7 @@ In testing 578.md, my implementation causes the wrong output while the implement
 
 ![ExpectedOutputFor566](Week10Images/Expected578.png)
 
-Output when running `diff` and viewing the file 578.md:
+Output when running `diff` at file 578.md:
 
 ![Diff578](Week10Images/Diff578.png)
 
