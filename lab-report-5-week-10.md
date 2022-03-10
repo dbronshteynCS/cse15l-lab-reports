@@ -19,7 +19,7 @@ Output when running `diff` and vieweing the file 530.md:
 
 ![Diff530](Week10Images/Diff530.png)
 
-The bug in my implementation that causes the wrong output is that my code does not use the closing parenthese to advance the currentIndex variable when it sees that an opening parenthese comes before an opening bracket. Instead it uses the closing bracket to advance the currentIndex under this condition; therefore causing the wrong output. This is why the output shows multiple `![moon](moon.jpg,` after properly showing just `moon.jpg` as the currentIndex is restarted back at the beginning of the line and copies everything between the opening bracket and closing bracket. 
+The bug in my implementation that causes the wrong output is that my code does not use the closing parenthese to advance the `currentIndex` variable when it sees that an opening parenthese comes before an opening bracket. Instead it uses the closing bracket to advance the `currentIndex` under this condition; therefore causing the wrong output. This is why the output shows multiple `![moon](moon.jpg,` after properly showing just `moon.jpg` as the `currentIndex` is restarted back at the beginning of the line and copies everything between the opening bracket and closing bracket. 
 
 Image of the code that needs to be fixed:
 
