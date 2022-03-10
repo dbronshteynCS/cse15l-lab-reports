@@ -15,13 +15,15 @@ While my implementation caused the wrong output, the implementation provided in 
 
 ![ExpectedOutputFor530](Week10Images/Expected530.png)
 
+Running `diff` and vieweing file 530.md:
+
 ![Diff530](Week10Images/Diff530.png)
 
-The bug in my implementation that causes the wrong output is that my code does not use the closing parenthese to advance the currentIndex variable. Instead my code using the closing bracket to advance the currentIndex variable; therefore causing the This is why the output shows multiple `![moon](moon.jpg,` after properly showing just `moon.jpg`. 
+The bug in my implementation that causes the wrong output is that my code does not use the closing parenthese to advance the currentIndex variable when it sees that an opening parenthese comes before an opening bracket. Instead it uses the closing bracket to advance the currentIndex under this condition; therefore causing the wrong output. This is why the output shows multiple `![moon](moon.jpg,` after properly showing just `moon.jpg` as the currentIndex is restarted back at the beginning of the line and copies everything between the opening bracket and closing bracket. 
 
 Image of the code that needs to be fixed:
 
-![FixThis530](Week10Images/MyCodeProblem.png)
+![FixThis530](Week10Images/FixFirst.png)
 
 
 ## Test 578.md
@@ -30,9 +32,11 @@ In testing 578.md, my implementation causes the wrong output while the implement
 
 ![ExpectedOutputFor566](Week10Images/Expected578.png)
 
+Running `diff` and viewing file 578.md:
+
 ![Diff566](Week10Images/Diff578.png)
 
-The bug in my implementation that causes the wrong output is that anything inside of parentheses will be copied and inserted into the ArrayList that will return the list of links. For 578.md, there is the text "title" inside of the parentheses. This text causes the link `/path/to/train.jpg` to not be considered a link by "Preview 578.md". Therefore, the implementation from lab disregards the link while my implementation believes it is a link and adds it to the list of links returned. 
+The bug in my implementation that causes the wrong output is that anything inside of parentheses will be copied and inserted into the ArrayList that returns the list of links. For 578.md, there is the text "title" inside of the parentheses. This text causes the link `/path/to/train.jpg` to be invalidated as a link by "Preview 578.md". Therefore, the implementation from lab disregards the link while my implementation believes it is a link and adds it to the list of links returned. 
 
 The code that should be fixed:
 
