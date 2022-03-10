@@ -20,6 +20,6 @@
 
 **Lab Report 5**
 
-*Will appear once completed*
+[Link to Lab Report 5](https://dbronshteyncs.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
 
 
