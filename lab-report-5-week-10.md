@@ -19,7 +19,7 @@ Output when running `diff` and vieweing the file 530.md:
 
 ![Diff530](Week10Images/Diff530.png)
 
-The bug in my implementation that causes the wrong output is that my code does not use the closing parenthese to advance the `currentIndex` variable when it sees that an opening parenthese comes before an opening bracket. Instead it uses the closing bracket to advance the `currentIndex` under this condition; therefore causing the wrong output. This is why the output shows multiple `![moon](moon.jpg,` after properly showing just `moon.jpg` as the `currentIndex` is restarted back at the beginning of the line and copies everything between the opening bracket and closing bracket. 
+The bug in my implementation that causes the wrong output is that my code does not use the closing parenthese to advance the `currentIndex` variable when it sees that the opening parenthese comes before an opening bracket. Instead it uses the closing bracket to advance the `currentIndex` under this condition; therefore causing the wrong output. This is why the output shows multiple `![moon](moon.jpg,` after properly showing just `moon.jpg`. This is because the `currentIndex` is restarted back at the beginning of the line and copies everything between the opening bracket and closing bracket. 
 
 Image of the code that needs to be fixed:
 
@@ -38,7 +38,7 @@ Output when running `diff` and viewing the file 578.md:
 
 ![Diff578](Week10Images/Diff578.png)
 
-The bug in my implementation that causes the wrong output is that anything inside of parentheses will be copied and inserted into the ArrayList that returns the list of links. For 578.md, there is the text "title" inside of the parentheses. This text causes the link `/path/to/train.jpg` to be invalidated as a link by "Preview 578.md". The implementation from the lab also invalidates the link while mine does not. To fix this, my code should look for additional text, and if found, stop itself from adding the link to the list of links to return. 
+The bug in my implementation that causes the wrong output is that anything inside of parentheses will be copied and inserted into the ArrayList that returns the list of links. For 578.md, there is the text "title" inside of the parentheses. This text causes the link `/path/to/train.jpg` to be invalidated as a link by "Preview 578.md". The implementation from the lab also invalidates the link while mine does not. To fix this, my code should look for additional text inside the parentheses, and if found, stop itself from adding the link to the list of links to return. 
 
 The code that should be fixed:
 
